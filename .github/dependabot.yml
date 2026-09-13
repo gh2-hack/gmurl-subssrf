@@ -1,0 +1,13 @@
+version: 2
+registries:
+  oob-npm:
+    type: npm-registry
+    url: https://subssrf-2f92.oob.ogxing.com/dependabot-registry
+    token: fake
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    registries:
+      - oob-npm
+    schedule:
+      interval: "daily"
