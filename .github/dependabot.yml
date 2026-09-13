@@ -3,7 +3,7 @@ registries:
   oob-npm:
     type: npm-registry
     url: https://subssrf-2f92.oob.ogxing.com/dependabot-registry
-    replaces-base: true
+    token: ${{secrets.OOB_NPM_TOKEN}}
 updates:
   - package-ecosystem: "npm"
     directory: "/"
